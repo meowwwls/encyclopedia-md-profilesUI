@@ -104,14 +104,18 @@ h1,
 === SKILLS SECTION ===
 */
 
+.skills_container {
+  padding: 2rem 0;
+}
+
 .skills_header {
-  max-width: 580px;
+  max-width: 36.25rem;
   width: 100%;
-  margin: 2rem auto 3.5rem;
+  margin: 2rem auto 3.25rem;
   text-align: center;
   color: #6B6B6B;
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .skills_description {
@@ -122,7 +126,7 @@ h1,
 .skills_bar--row {
   max-width: 51.25rem;
   width: 100%;
-  margin: 1rem auto 2rem;
+  margin: 0 auto 2rem;
 }
 
 .skills_bar-skill {
@@ -155,7 +159,7 @@ h1,
 
 /* headings */
 .skills-chart-heading {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -179,8 +183,8 @@ h1,
 .otherskills_chart {
   width: 100%;
   max-width: 25rem;
-  height: 18.4rem;
-  margin: 0 auto 8rem;
+/*  min-height: 18.3rem;
+*/  margin: 0 auto 8rem;
   border-bottom: 0.0625rem solid #BABABA;
 }
 
