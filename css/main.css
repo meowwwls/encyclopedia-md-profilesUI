@@ -23,6 +23,9 @@ p {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+}
 
 /*
 === GENERAL RESETS ===
@@ -166,13 +169,12 @@ h1,
 }
 
 .appreciation_item--link {
-  margin-top: 0.5rem; 
+  margin-top: 0.3rem; 
 }
 .appreciation_item--link a {
   color: #6B6B6B;
   font-size: 0.9rem;
   font-weight: 500;
-  text-decoration: none;
 }
 .appreciation-link-light {
   color: #C6C6C6;
@@ -213,8 +215,8 @@ h1,
   max-width: 160px;
   padding: 0.5rem 0;
   margin: 1rem 0 1.2rem;
-  border: none;
   background-color: #F8F8F8;
+  border: none;
   text-align: center;
   font-size: 1.7rem;
   color: #828282;
@@ -247,7 +249,6 @@ h1,
   padding: 0 0.45rem;
 }
 .appreciation_twitter_link {
-  text-decoration: none;
   font-weight: 400;
   color: #5BC5ED;
   background: transparent;
