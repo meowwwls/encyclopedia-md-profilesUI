@@ -99,3 +99,141 @@ h1,
   font-size: 1.85rem;
   margin-bottom: 0.5em;
 }
+
+/*
+=== APPRECIATION SECTION
+*/
+
+.appreciation_container {
+  text-align: center;
+  margin: 0 auto;
+  color: #6B6B6B;
+  max-width: 1200px;
+  width: 100%;
+  font-weight: 400;
+}
+
+.appreciation_list {
+  margin-top: 2.65rem;
+}
+
+.appreciation_container h2 {
+  margin-bottom: 0.08em;
+}
+
+.appreciation_description {
+  margin: 0;
+  font-size: 1.18rem;
+}
+.appreciation_item--desc {
+  margin: 0;
+}
+
+.appreciation_item {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5%;
+/*  width: 30%
+*/}
+.appreciation_item--innerwrap {
+  width: 225px;
+  height: 225px;
+  padding: 1rem 1.5rem;
+  border-radius: 50%;
+  background: #fff;
+  border: 5px solid;
+}
+
+.appreciation_item--content {
+  padding: 0 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.icon-placeholder {
+  display: block;
+  width: 55px;
+  height: 55px;
+  margin: 0.7rem auto;
+  background: black;
+}
+
+.appreciation_btn {
+  font-weight: 300;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.appreciation_item--link {
+  max-width: 225px;
+  margin-top: 0.5rem; 
+}
+.appreciation_item--link a {
+  color: #6B6B6B;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.appreciation-link-light {
+  color: #C6C6C6;
+}
+
+/* github appreciation styles */
+.appreciation_github {
+  border-color: #FAE9EF;
+}
+
+.appreciation_github_btn {
+  padding: 0.6rem 1.3125rem;
+  background:#EC4C7A;
+  color: #fff;
+}
+
+/* tip appreciation styles */
+.appreciation_gratipay {
+  padding-left: 0;
+  padding-right: 0;
+  border-color: #D5F9DF;
+}
+
+.tip_desc {
+  margin-top: 0.625rem;
+}
+
+.tip_form {
+  margin-top: 0.75rem;
+}
+
+.tip_input {
+  display: inline-block;
+  width: 100%;
+  max-width: 160px;
+  padding: 0.5rem 0;
+  margin: 1rem 0 1.2rem;
+  border: none;
+  background-color: #F8F8F8;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #828282;
+}
+
+.appreciation_tip_btn {
+  padding: 0.6rem 0.7rem;
+  background: #29B74B;
+  color: #fff;
+}
+
+.appreciation_twitter {
+  border-color: #D7F2FB;
+}
+.appreciation_twitter .appreciation_item--content {
+  padding: 0 0.45rem;
+
+}
+.appreciation_twitter_link {
+  text-decoration: none;
+  font-weight: 400;
+  color: #5BC5ED;
+  background: transparent;
+}
