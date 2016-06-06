@@ -1,11 +1,16 @@
 html {
   box-sizing: border-box;
+  font-size: 100%;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -14,11 +19,42 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* 
- === BUTTON RESETS ===
+p {
+  line-height: 1.5;
+}
+
+
+/*
+=== GENERAL RESETS ===
 */
 
+
+/* clearfix */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* button resets*/
+
+
 /* removes padding and border added by Firefox  */
+
 button::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
@@ -26,6 +62,7 @@ input[type="reset"]::-moz-focus-inner {
   padding: 0 !important;
   border: 0 none !important;
 }
+
 
 /* resets initial styles so all button elements start with the same look and can be built upon */
 
@@ -44,4 +81,202 @@ button {
 h1,
 .price {
   font-family: 'Roboto Slab', serif;
+}
+
+.large_container {
+  max-width: 86.23rem;
+  margin: auto;
+}
+
+/*
+=== HEADINGS
+*/
+
+/* pink headings */
+.sections_heading-main {
+  color: #EA37B9;
+  font-weight: 400;
+  font-size: 1.85rem;
+  margin-bottom: 0.5em;
+}
+
+/*
+=== SKILLS SECTION ===
+*/
+
+.skills_header {
+  max-width: 580px;
+  width: 100%;
+  margin: 2rem auto 3.5rem;
+  text-align: center;
+  color: #6B6B6B;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.skills_description {
+  margin: 0;
+}
+
+/* front / back comparison row */
+.skills_bar--row {
+  max-width: 51.25rem;
+  width: 100%;
+  margin: 1rem auto 2rem;
+}
+
+.skills_bar-skill {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 0.9rem;
+}
+
+.frontend {
+  width: 70%;
+  background: #FC5E5F;
+}
+
+.backend {
+  width: 30%;
+  background: #4A70EB;
+  text-align: right;
+}
+
+/* charts */
+.skills_chart-container {
+  max-width: 56.875rem;
+  margin: auto;
+  font-size: 0;
+  /* removes whitespace from inline-block elements */
+  text-align: center;
+}
+
+/* headings */
+.skills-chart-heading {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.skills-heading_frontend {
+  color: #FC5E5F;
+}
+
+.skills-heading_backend {
+  color: #4A70EB;
+}
+
+.skills-heading_other {
+  color: #404040;
+}
+
+
+/* shared styles */
+
+.frontend_chart,
+.backend_chart,
+.otherskills_chart {
+  width: 100%;
+  max-width: 25rem;
+  height: 18.4rem;
+  margin: 0 auto 8rem;
+  border-bottom: 0.0625rem solid #BABABA;
+}
+
+.frontend_skills_graph,
+.backend_skills_graph,
+.other_skills_graph {
+  height: 11.625rem;
+  margin-top: 4rem;
+}
+
+.chart_skill-level {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.skill-level-keys {
+  height: 100%;
+}
+
+.skill-keys,
+.bar-label {
+  font-size: 0.9rem;
+  color: #828282;
+  font-weight: 500;
+  text-align: right;
+}
+
+.skill-keys {
+  height: 25%;
+}
+
+.skill-level_bar {
+  width: 2.1875rem;
+  display: inline-block;
+  margin: 0 0.7rem;
+  position: relative;
+}
+
+.bar-label {
+  position: absolute;
+  left: 0;
+  bottom: -2.25rem;
+  width: 100%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+/* bar styles: shared until more information */
+.bar_skill1 {
+  height: 100%;
+  background: #FFAC42;
+}
+
+.bar_skill2 {
+  height: 75%;
+  background: #38B9F0;
+}
+
+.bar_skill3 {
+  height: 100%;
+  background: #6AD12C;
+}
+
+.bar_skill4 {
+  height: 50%;
+  background: #FF83B5;
+}
+
+.bar_skill5 {
+  height: 25%;
+  background: #F0E210;
+}
+
+
+/* FRONTEND CHART */
+
+.frontend_chart {
+  float: left;
+}
+
+
+/* BACKEND CHART*/
+
+.backend_chart {
+  float: right;
+}
+
+
+/* OTHER SKILLS CHART */
+
+.otherskills_chart {
+  clear: both;
+}
+
+.other_skills_graph .bar-label {
+  bottom: -4rem;
+  text-align: center;
 }
