@@ -142,8 +142,8 @@ h1,
   display: inline-block;
   vertical-align: top;
   margin: 0 5%;
-/*  width: 30%
-*/}
+}
+
 .appreciation_item--innerwrap {
   width: 14.06rem;
   height: 14.06rem;
@@ -159,14 +159,17 @@ h1,
   width: 100%;
 }
 
-.icon-placeholder {
+.appreciation_icon-wrap {
   display: block;
-  width: 55px;
-  height: 55px;
-  margin: 0.7rem auto;
-  background:#56C8E3;
+  width: 3.4rem;
+  height: 3.4rem;
+  margin: 0.9rem auto;
 }
 
+.appreciation_icon-wrap svg {
+  width: 100%;
+  height: 100%;
+}
 .appreciation_btn {
   font-weight: 400;
   font-size: 0.8rem;
