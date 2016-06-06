@@ -116,6 +116,12 @@ h1,
   font-weight: 400;
 }
 
+.appreciation_container a:hover,
+.appreciation_container a:focus {
+  padding-bottom: 0.15em;
+  border-bottom: 1px solid;
+}
+
 .appreciation_list {
   margin-top: 2.65rem;
 }
@@ -166,6 +172,8 @@ h1,
   font-size: 0.8rem;
   text-transform: uppercase;
   border-radius: 3px;
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
 }
 
 .appreciation_item--link {
@@ -175,9 +183,15 @@ h1,
   color: #6B6B6B;
   font-size: 0.9rem;
   font-weight: 500;
+  -webkit-transition: color 0.2s ease-in-out,
+              border-bottom 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out,
+              border-bottom 0.2s ease-in-out;
 }
 .appreciation-link-light {
   color: #C6C6C6;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 
 /* github appreciation styles */
@@ -195,7 +209,12 @@ h1,
 };
 .appreciation_github_btn:active {
   background: #EC4C7A;
-  transform: translateY(1px); 
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px); 
+}
+.appreciation_github + .appreciation_item--link:hover a,
+.appreciation_github + .appreciation_item--link:hover span {
+  color: #EC4C7A;
 }
 /* tip appreciation styles */
 .appreciation_gratipay {
@@ -220,6 +239,7 @@ h1,
   text-align: center;
   font-size: 1.7rem;
   color: #828282;
+  -webkit-transition: box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
 }
 .tip_input:focus,
@@ -230,7 +250,6 @@ h1,
   padding: 0.6rem 0.9rem;
   background: #29B74B;
   color: #fff;
-  transition: background 0.2s ease-in-out;
 }
 .appreciation_tip_btn:hover,
 .appreciation_tip_btn:focus {
@@ -238,7 +257,12 @@ h1,
 }
 .appreciation_tip_btn:active {
   background: #29B74B;
-  transform: translateY(1px);
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+ }
+ .appreciation_gratipay + .appreciation_item--link:hover a,
+ .appreciation_gratipay + .appreciation_item--link:hover span {
+   color: #29B74B;
  }
 
  /* twitter appreciation styles */
@@ -252,4 +276,14 @@ h1,
   font-weight: 400;
   color: #5BC5ED;
   background: transparent;
+  -webkit-transition: color 0.2s ease-in-out,
+                border-bottom 0.2s ease-in-out;
+  transition:   color 0.2s ease-in-out,
+                border-bottom 0.2s ease-in-out
+}
+.appreciation_twitter_link:hover,
+.appreciation_twitter_link:focus,
+.appreciation_twitter + .appreciation_item--link:hover a,
+.appreciation_twitter + .appreciation_item--link:hover span {
+  color: #34BCE6;
 }
