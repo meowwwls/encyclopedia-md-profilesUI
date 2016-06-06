@@ -100,12 +100,19 @@ h1,
   margin-bottom: 0.5em;
 }
 
+.sections_heading-inner {
+  color: #EA37B9;
+  font-weight: 400;
+  font-size: 1.85rem;
+  margin-bottom: 0.5em;
+}
+
 /*
 === SKILLS SECTION ===
 */
 
 .skills_container {
-  padding: 2rem 0;
+  padding: 2rem 0 2.5rem;
 }
 
 .skills_header {
@@ -183,8 +190,7 @@ h1,
 .otherskills_chart {
   width: 100%;
   max-width: 25rem;
-/*  min-height: 18.3rem;
-*/  margin: 0 auto 8rem;
+  margin: 0 auto 6.25rem;
   border-bottom: 0.0625rem solid #BABABA;
 }
 
@@ -218,19 +224,21 @@ h1,
 }
 
 .skill-level_bar {
-  width: 2.1875rem;
-  display: inline-block;
-  margin: 0 0.7rem;
   position: relative;
+  display: inline-block;
+  width: 2.1875rem;
+  margin: 0 0.7rem;
+  vertical-align: bottom;
 }
 
 .bar-label {
   position: absolute;
   left: 0;
-  bottom: -2.25rem;
-  width: 100%;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  bottom: -1.25rem;
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+          -webkit-transform: rotate(45deg);
+                  transform: rotate(45deg);
 }
 
 /* bar styles: shared until more information */
@@ -281,6 +289,6 @@ h1,
 }
 
 .other_skills_graph .bar-label {
-  bottom: -4rem;
-  text-align: center;
+  bottom: -2rem;
+  text-align: left;
 }
