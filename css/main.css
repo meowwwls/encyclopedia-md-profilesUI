@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #F5F5F5;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* 
+ === BUTTON RESETS ===
+*/
+
+/* removes padding and border added by Firefox  */
+button::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner {
+  padding: 0 !important;
+  border: 0 none !important;
+}
+
+/* resets initial styles so all button elements start with the same look and can be built upon */
+
+button {
+  padding: 0;
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: sans-serif;
+  background-color: transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+h1,
+.price {
+  font-family: 'Roboto Slab', serif;
+}
