@@ -99,3 +99,27 @@ h1,
   font-size: 1.85rem;
   margin-bottom: 0.5em;
 }
+
+/*
+=== DEVELOPER INFORMATION SECTION
+*/
+
+.dev_info-container {
+}
+
+.dev_info-person a {
+  color: #758AF7;
+}
+.dev_info-personal {
+  color: #424242;
+  padding: 40px;
+  width: 67%;
+  background: #fff;
+}
+
+.dev_info-heading--main {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 25px;
+  color: #9D4EE8;
+}
