@@ -19,20 +19,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-p {
-  line-height: 1.5;
-}
 
-a {
-  text-decoration: none;
-}
-
-.blk_center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* svg degs hidden */
+/* svg defs hidden */
 #icon-defs {
   opacity: 0;
   visibility: hidden;
@@ -42,8 +30,6 @@ a {
 /*
 === GENERAL RESETS ===
 */
-
-
 /* clearfix */
 
 .cf:before,
@@ -64,6 +50,9 @@ ul {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
 
 /* button resets*/
 
@@ -93,14 +82,24 @@ button {
   cursor: pointer;
 }
 
+p {
+  line-height: 1.5;
+}
+
+.blk_center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1,
 .price {
   font-family: 'Roboto Slab', serif;
 }
 
 .large_container {
-  max-width: 86.23rem;
+  max-width: 87.23rem;
   margin: auto;
+  padding: 0 0.5rem;
 }
 
 /*
