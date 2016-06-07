@@ -140,7 +140,7 @@ h1,
 }
 .dev_info-work, 
 .dev_info-personal {
-  padding: 43px;
+  padding: 2.6875rem;
   display: inline-block;
   vertical-align: top;
 }
@@ -150,18 +150,18 @@ h1,
   color: #9D4EE8;
 }
 .dev_info-heading--primary {
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 500;
 }
 .dev_info-heading--sec {
-  font-size: 21px;
+  font-size: 1.3125rem;
   font-weight: 400;
 }
 /* personal section */
 .dev_info-personal {
   position: relative;
   width: 67%;  
-  padding: 40px;
+  padding: 2.5rem;
   background: #fff;
   color: #535353;
   font-size: 1.025rem;
@@ -217,8 +217,8 @@ h1,
   border-color: #758AF7;
   -webkit-animation: none;
           animation: none;
-  -webkit-transform: translateY(1px) scale(1.2) rotate(405deg);
-          transform: translateY(1px) scale(1.2) rotate(405deg);
+  -webkit-transform: translateY(0.0625rem) scale(1.2) rotate(405deg);
+          transform: translateY(0.0625rem) scale(1.2) rotate(405deg);
 }
 /* dev info more button hover animation */
 @-webkit-keyframes dev_info-more {
@@ -227,16 +227,16 @@ h1,
             transform: translateY(0) scale(1.2) rotate(45deg);
   }
   25% {
-    -webkit-transform: translateY(2px) scale(1.2) rotate(45deg);
-            transform: translateY(2px) scale(1.2) rotate(45deg);
+    -webkit-transform: translateY(0.125rem) scale(1.2) rotate(45deg);
+            transform: translateY(0.125rem) scale(1.2) rotate(45deg);
   }
   75% {
     -webkit-transform: translateY(0) scale(1.2) rotate(45deg);
             transform: translateY(0) scale(1.2) rotate(45deg);
   }
   100% {
-    -webkit-transform: translateY(-2px) scale(1.2) rotate(45deg);
-            transform: translateY(-2px) scale(1.2) rotate(45deg);
+    -webkit-transform: translateY(-0.125rem) scale(1.2) rotate(45deg);
+            transform: translateY(-0.125rem) scale(1.2) rotate(45deg);
   }
 }
 @keyframes dev_info-more {
@@ -245,16 +245,16 @@ h1,
             transform: translateY(0) scale(1.2) rotate(45deg);
   }
   25% {
-    -webkit-transform: translateY(2px) scale(1.2) rotate(45deg);
-            transform: translateY(2px) scale(1.2) rotate(45deg);
+    -webkit-transform: translateY(0.125rem) scale(1.2) rotate(45deg);
+            transform: translateY(0.125rem) scale(1.2) rotate(45deg);
   }
   75% {
     -webkit-transform: translateY(0) scale(1.2) rotate(45deg);
             transform: translateY(0) scale(1.2) rotate(45deg);
   }
   100% {
-    -webkit-transform: translateY(-2px) scale(1.2) rotate(45deg);
-            transform: translateY(-2px) scale(1.2) rotate(45deg);
+    -webkit-transform: translateY(-0.125rem) scale(1.2) rotate(45deg);
+            transform: translateY(-0.125rem) scale(1.2) rotate(45deg);
   }
 }
 /* work section */
@@ -266,7 +266,7 @@ h1,
   font-size: 0.9rem;
 }
 .dev_info-heading--work:first-of-type {
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 .dev_info-heading--work {
   font-weight: 500;
@@ -277,7 +277,7 @@ h1,
  }
 .job_heading--current {
   color: #424242;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .job_heading--past {   
   color: #7B7B7B;
