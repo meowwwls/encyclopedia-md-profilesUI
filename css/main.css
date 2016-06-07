@@ -23,6 +23,9 @@ p {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+}
 
 /*
 === GENERAL RESETS ===
@@ -136,7 +139,8 @@ h1,
 }
 
 .pane1-content {
-  background-color: #6a3b99;
+  background: #6a3b99 url("../images/hero-bg.jpg") no-repeat center center;
+  background-size: cover;
   height: 24.215rem;
 }
 
