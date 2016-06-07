@@ -49,6 +49,9 @@ ul {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
 
 /* button resets*/
 
@@ -62,7 +65,6 @@ input[type="reset"]::-moz-focus-inner {
   padding: 0 !important;
   border: 0 none !important;
 }
-
 
 /* resets initial styles so all button elements start with the same look and can be built upon */
 
@@ -84,8 +86,9 @@ h1,
 }
 
 .large_container {
-  max-width: 86.23rem;
+  max-width: 87.23rem;
   margin: auto;
+  padding: 0 0.5rem;
 }
 
 /*
@@ -99,7 +102,6 @@ h1,
   font-size: 1.85rem;
   margin-bottom: 0.5em;
 }
-
 
 /*
 === SKILLS SECTION ===
