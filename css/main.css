@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 100%;
+  font-size: 16px;
 }
 
 *,
@@ -20,24 +20,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-p {
-  line-height: 1.5;
+/* svg defs hidden */
+#icon-defs {
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
 }
 
 /*
 === GENERAL RESETS ===
 */
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
 /* clearfix */
 
 .cf:before,
@@ -52,8 +45,18 @@ a {
   clear: both;
 }
 
-/* button resets*/
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* button resets*/
 
 /* removes padding and border added by Firefox  */
 
@@ -78,6 +81,15 @@ button {
   background-color: transparent;
   box-sizing: border-box;
   cursor: pointer;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.blk_center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1,
@@ -485,4 +497,190 @@ section.noteworthy {
 
 .social-link-container > a:nth-child(6):hover {
 	color: #9C9A9A;
+}
+/*
+=== APPRECIATION SECTION
+*/
+
+.appreciation_container {
+  text-align: center;
+  color: #6B6B6B;
+  max-width: 75rem;
+  width: 100%;
+  font-weight: 400;
+}
+
+.appreciation_container a:hover,
+.appreciation_container a:focus {
+  padding-bottom: 0.15em;
+  border-bottom: 0.0625rem solid;
+}
+
+.appreciation_list {
+  margin-top: 2.65rem;
+}
+
+.appreciation_container h2 {
+  margin-bottom: 0.08em;
+}
+
+.appreciation_description {
+  margin: 0;
+  font-size: 1.18rem;
+}
+.appreciation_item--desc {
+  margin: 0;
+}
+
+.appreciation_item {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5%;
+}
+
+.appreciation_item--innerwrap {
+  width: 14.06rem;
+  height: 14.06rem;
+  padding: 1rem 1.5rem;
+  border-radius: 50%;
+  background: #fff;
+  border: 0.375rem solid;
+}
+
+.appreciation_item--content {
+  padding: 0 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.appreciation_icon-wrap {
+  display: block;
+  width: 3.4rem;
+  height: 3.4rem;
+  margin: 0.9rem auto;
+}
+
+.appreciation_icon-wrap svg {
+  width: 100%;
+  height: 100%;
+}
+.appreciation_btn {
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border-radius: 0.1875rem;
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+
+.appreciation_item--link {
+  margin-top: 0.3rem; 
+}
+.appreciation_item--link a {
+  color: #6B6B6B;
+  font-size: 0.9rem;
+  font-weight: 500;
+  -webkit-transition: color 0.2s ease-in-out,
+              border-bottom 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out,
+              border-bottom 0.2s ease-in-out;
+}
+.appreciation-link-light {
+  color: #C6C6C6;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+/* github appreciation styles */
+.appreciation_github {
+  border-color: #FAE9EF;
+}
+.appreciation_github_btn {
+  padding: 0.6rem 1.6rem;
+  background:#EC4C7A;
+  color: #fff;
+}
+.appreciation_github_btn:hover,
+.appreciation_github_btn:focus {
+  background: #FF83B5;
+};
+.appreciation_github_btn:active {
+  background: #EC4C7A;
+  -webkit-transform: translateY(0.0625rem);
+          transform: translateY(0.0625rem); 
+}
+.appreciation_github + .appreciation_item--link:hover a,
+.appreciation_github + .appreciation_item--link:hover span {
+  color: #EC4C7A;
+}
+/* tip appreciation styles */
+.appreciation_gratipay {
+  padding-left: 0;
+  padding-right: 0;
+  border-color: #D5F9DF;
+}
+.tip_desc {
+  margin-top: 0.625rem;
+}
+.tip_form {
+  margin-top: 0.75rem;
+}
+.tip_input {
+  display: inline-block;
+  width: 100%;
+  max-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 1rem 0 1.5rem;
+  background-color: #F8F8F8;
+  border: none;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #828282;
+  -webkit-transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.tip_input:focus,
+.tip_input:hover {
+  box-shadow: 0 0 0 0.0625rem #6AD12C inset;
+}
+.appreciation_tip_btn {
+  padding: 0.6rem 0.9rem;
+  background: #29B74B;
+  color: #fff;
+}
+.appreciation_tip_btn:hover,
+.appreciation_tip_btn:focus {
+  background: #34D359;
+}
+.appreciation_tip_btn:active {
+  background: #29B74B;
+  -webkit-transform: translateY(0.0625rem);
+          transform: translateY(0.0625rem);
+ }
+ .appreciation_gratipay + .appreciation_item--link:hover a,
+ .appreciation_gratipay + .appreciation_item--link:hover span {
+   color: #29B74B;
+ }
+
+ /* twitter appreciation styles */
+.appreciation_twitter {
+  border-color: #D7F2FB;
+}
+.appreciation_twitter .appreciation_item--content {
+  padding: 0 0.45rem;
+}
+.appreciation_twitter_link {
+  font-weight: 400;
+  color: #5BC5ED;
+  background: transparent;
+  -webkit-transition: color 0.2s ease-in-out,
+                border-bottom 0.2s ease-in-out;
+  transition:   color 0.2s ease-in-out,
+                border-bottom 0.2s ease-in-out
+}
+.appreciation_twitter_link:hover,
+.appreciation_twitter_link:focus,
+.appreciation_twitter + .appreciation_item--link:hover a,
+.appreciation_twitter + .appreciation_item--link:hover span {
+  color: #34BCE6;
 }
