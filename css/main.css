@@ -64,10 +64,10 @@ h1,
   font-family: 'Roboto Slab', serif;
 }
 
-/*.large_container {
+.large_container {
   max-width: 86.23rem;
   margin: auto;
-}*/
+}
 
 /*
 === HEADINGS
@@ -79,7 +79,6 @@ section.col-aggregator {
 	color: #404040;
 	height: 35rem;
 	text-align: center;
-	width: 100%;
 }
 
 .col-aggregator > * {
