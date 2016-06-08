@@ -83,24 +83,24 @@ h1,
 
 .sections_heading-main span {
 	animation-name: colorSlide;
-	animation-duration: 2s;
+	animation-duration: 1s;
 	animation-timing-function: ease-in-out;
 }
 
 .sections_heading-main span:nth-child(1) { 
-	animation-delay: .1s;
+	animation-delay: .3s;
 }
 
 .sections_heading-main span:nth-child(2) {
-	animation-delay: .13s;
+	animation-delay: .36s;
 }
 
 .sections_heading-main span:nth-child(3) {
-	animation-delay: .15s;
+	animation-delay: .42s;
 }
 
 .sections_heading-main span:nth-child(4) {
-	animation-delay: .17s;
+	animation-delay: .48s;
 }
 
 section.noteworthy h2 {
