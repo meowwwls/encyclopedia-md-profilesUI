@@ -15,6 +15,7 @@ body {
 }
 
 body {
+	min-height: 100%;
   background: #F5F5F5;
   font-family: 'Roboto', sans-serif;
 }
@@ -347,4 +348,141 @@ button.control > div {
 
 .navigator button:first-child ~ button > * {
   background-color: rgba(255,255,255,.5);
+}
+.sections_heading-main span {
+	animation-name: colorSlide;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+}
+
+.sections_heading-main span:nth-child(1) { 
+	animation-delay: .3s;
+}
+
+.sections_heading-main span:nth-child(2) {
+	animation-delay: .36s;
+}
+
+.sections_heading-main span:nth-child(3) {
+	animation-delay: .42s;
+}
+
+.sections_heading-main span:nth-child(4) {
+	animation-delay: .48s;
+}
+
+section.noteworthy h2 {
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+@keyframes colorSlide {
+
+	0% {
+		color: #4A70EB;
+	}
+	50% {
+		color: #38B9F0;
+	}
+	100% {
+		color: #EA37B9;
+	}
+
+	/*0% {
+		color: #9341C1;
+	}
+	100% {
+		color: #EA37B9;
+	}*/
+}
+
+
+/*Position and style section*/
+
+section.noteworthy {
+	background-color: #fff;
+	max-width: 75rem;
+	padding: 2rem 2rem 3rem 2rem;
+}
+
+.content-container {
+	width: 49%;
+}
+
+.content-text {
+	color: #404040;
+	margin-left: 1rem;
+	position: relative;
+}
+
+.content-container, .content-text, .image-placeholder {
+	display: inline-block;	
+}
+
+.content-text > * {
+	font-weight: 400;
+}
+
+.content-text h3 {
+	margin: 0 0 1rem 0;
+}
+
+.content-text span {
+	font-size: 2rem;
+	font-weight: 100;
+	top: 0;
+	right: 1rem;
+	position: absolute;
+}
+
+.content-text p {
+	border-bottom: .1rem solid #C6C6C6;
+	color: #828282;
+	font-size: .8rem;
+	margin: 0;
+	padding-bottom: .8rem;
+	width: 20rem;
+}
+
+.image-placeholder {
+	background-color: #F5F5F5;
+	height: 10rem;
+	width: 12rem;
+	vertical-align: top;
+}
+
+.social-link-container {
+	margin-top: 1rem;
+	width: 100%;
+}
+
+.social-link-container > a {
+	color: #000;
+	font-size: .8rem;
+	padding-right: 1.5rem;
+	vertical-align: 20%;
+}
+
+.social-link-container a {
+	transition: color .3s ease-in-out;
+}
+
+.social-link-container > a:nth-child(2) {
+	color: #4A70EB;
+}
+
+.social-link-container > a:nth-child(4) {
+	color: #38B9F0;
+}
+
+.social-link-container > a:nth-child(2):hover {
+	color: #96ACF5;
+}
+
+.social-link-container > a:nth-child(4):hover {
+	color: #98E0FF;
+}
+
+.social-link-container > a:nth-child(6):hover {
+	color: #9C9A9A;
 }
