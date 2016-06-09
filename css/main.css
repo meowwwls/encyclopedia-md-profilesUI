@@ -99,10 +99,10 @@ h1,
   font-family: 'Roboto Slab', serif;
 }
 
-/*.large_container {
+.large_container {
   max-width: 86.23rem;
   margin: auto;
-}*/
+}
 
 /* visually hide content but keep it accessible */
 
