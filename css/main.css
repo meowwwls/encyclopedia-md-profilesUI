@@ -55,6 +55,10 @@ a {
   text-decoration: none;
 }
 
+/*
+=== GENERAL RESETS ===
+*/
+
 /* button resets*/
 
 /* removes padding and border added by Firefox  */
@@ -95,10 +99,10 @@ h1,
   font-family: 'Roboto Slab', serif;
 }
 
-.large_container {
+/*.large_container {
   max-width: 86.23rem;
   margin: auto;
-}
+}*/
 
 /* visually hide content but keep it accessible */
 
@@ -127,8 +131,6 @@ h1,
 /*
 === REUSABLE HEADINGS
 */
-
-
 /* pink headings */
 
 .sections_heading-main {
@@ -137,8 +139,6 @@ h1,
   font-size: 1.85rem;
   margin-bottom: 0.5em;
 }
-
-
 /* 
 === SITE HEADER / LOGO SECTION
 */
@@ -1018,4 +1018,153 @@ section.noteworthy {
 /* OTHER SKILLS CHART */
 .otherskills_chart {
   clear: both;
+}
+section.col-aggregator {
+	background-color: #fff;
+	color: #404040;
+	height: 35rem;
+	text-align: center;
+	width: 100%;
+}
+
+.col-aggregator > * {
+	/*background-color: blue;*/
+	display: inline-block;
+	font-weight: 300;
+	font-size: .8rem;
+	height: 30rem;
+	width: 26rem;
+	vertical-align: top;
+}
+
+.col-aggregator a {
+	color: white;
+}
+
+.col-aggregator h3 {
+	font-size: 1.3rem;
+	font-weight: 400;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+.col-aggregator aside > h3, .col-aggregator article > h3 {
+	margin-left: 2.3rem;
+}
+
+/*Selector styles the three coloured divs*/
+.col-aggregator > * > div {
+	height: 26rem;
+	margin: 1rem auto;
+	width: 25rem;
+}
+
+.col-aggregator > article span {
+	color: #828282;
+	font-size: .7rem;
+	margin: 0 2rem 0 0;
+}
+
+/*Three columns*/
+.aside-content, .dev-articles-content {
+	background-color: #EDFBFE;
+}
+/*Three columns*/
+.answers-content {
+	background-color: #F9F3FF;
+}
+
+.dev-articles-content, div.answers-content {
+	padding: 1.3rem;
+	position: relative;
+	text-align: left;
+}
+
+.dev-articles-content h3, .dev-articles-content a, .answers-content h3 {
+	font-size: .9rem;
+	font-weight: 400;
+	display: block;
+	margin: 0;
+}
+
+.dev-articles-content h3 ~ h3 {
+	margin-top: 1.5rem;
+}
+
+.dev-articles-content a {
+	color: #4A70EB;
+	transition: color .2s ease-in-out;
+}
+
+.dev-articles-content a:hover {
+	color: #7c9cf9;
+}
+
+.dev-articles-content a, .answers-content p {
+	margin: 1.5rem 0 .3rem 0;
+}
+
+.dev-articles-content div, .answers-content div {
+	bottom: 0;
+	left: 0;
+	height: 3rem;
+	padding-top: 1rem;
+	position: absolute;
+	width: 100%;
+}
+
+#loadmore {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.answers-content div {
+	border-top: .1rem solid #C2A2F5;
+}
+
+.dev-articles-content div {
+	border-top: .1rem solid #ACBBEC;
+}
+
+.dev-articles-content #loadmore {
+	color: #ACBBEC;
+}
+
+.answers-content #loadmore {
+	color: #C2A2F5;
+}
+
+/*Position twitter button */
+
+aside.twitter-timeline {
+	position: relative;
+}
+
+.aside-content {
+	padding-top: 1.5rem;
+}
+
+.twitter-timeline button {
+	background-color: #38B9F0;
+	border-radius: 3px;
+	color: #fff;
+	font-size: .6875rem;
+	font-weight: 500;
+	height: 1.25rem;
+	left: 17.5rem;
+	padding: .0625rem .4rem;
+	position: absolute;
+	top: 1.5rem;
+	transition: background-color .3s ease-in-out;
+	width: 8rem;
+}
+
+.twitter-timeline button:hover {
+	background-color: #5acefc;
+}
+
+button img {
+	vertical-align: middle;
+	margin-left: .3rem;
 }
