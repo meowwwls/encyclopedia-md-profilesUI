@@ -138,6 +138,7 @@ h1,
 .site_header {
   background: #fff;
   padding: 0.15rem 0;
+  margin-bottom: 3rem;
 }
 
 .site_logo {
@@ -495,6 +496,7 @@ section.noteworthy {
   color: #6B6B6B;
   max-width: 75rem;
   width: 100%;
+  margin-top: 4.3rem;
   font-weight: 400;
 }
 
@@ -560,7 +562,6 @@ section.noteworthy {
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
-
 .appreciation_item--link {
   margin-top: 0.3rem; 
 }
@@ -578,7 +579,6 @@ section.noteworthy {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-
 /* github appreciation styles */
 .appreciation_github {
   border-color: #FAE9EF;
@@ -677,7 +677,7 @@ section.noteworthy {
 */
 /* shared styles */
 .dev_info-container {
-  margin-top: 2rem;
+  margin-top: 4.2rem;
   margin-bottom: 2rem;
   font-size: 0; /* remove whitespace from inline-block */ 
 }
@@ -840,7 +840,7 @@ section.noteworthy {
 */
 
 .skills_container {
-  padding: 2rem 0 2.5rem;
+  padding: 1.4rem 0 2.5rem;
 }
 
 .skills_header {
@@ -1015,6 +1015,7 @@ section.col-aggregator {
 	background-color: #fff;
 	color: #404040;
 	height: 35rem;
+  margin-top: 1.75rem;
 	text-align: center;
 }
 
