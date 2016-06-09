@@ -19,14 +19,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* svg defs hidden */
-#icon-defs {
-  opacity: 0;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
-
 /*
 === GENERAL RESETS ===
 */
