@@ -240,7 +240,7 @@ h1,
 .hero-container {
   margin: 0 auto;
   position: relative;
-  width: 75rem;
+  /*width: 75rem;*/
 }
 
 .hero-container .pane1 button {
@@ -265,8 +265,12 @@ h1,
   padding: 0;
 }
 
-.hero-container li > .pane1-content > img:first-of-type {
+.hero-container .image-container {
+  background: url("../images/paulirish.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
   display: inline-block;
+  height: 100%;
   width: 40%;
 }
 
@@ -401,7 +405,7 @@ section.noteworthy h2 {
 
 section.noteworthy {
 	background-color: #fff;
-	max-width: 75rem;
+	/*max-width: 75rem;*/
 	padding: 2rem 2rem 3rem 2rem;
 }
 
