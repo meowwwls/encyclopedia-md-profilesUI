@@ -248,14 +248,15 @@ h1,
   border-radius: .2rem;
   height: 2.5rem;
   position: absolute;
-  right: .5rem;
-  top: .5rem;
+  right: .8rem;
+  top: .8rem;
   width: 9rem;
-  -webkit-transition: background-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .hero-container .pane1 button:hover {
+  color: #fff;
   background-color: #EC66C8;
 }
 
@@ -306,25 +307,37 @@ h1,
   width: 85%;
 }
 
-p > a, p > a + span, .social-link-container > a {
-  color: #c5a0df;
-}
-
-.social-link-container > span, .social-link-container > a {
+.social-link-container > a {
   font-size: .8rem;
   padding-right: 1.5rem;
   vertical-align: 20%;
 }
 
-.social-link-container > span:nth-child(2) {
+.hero-container p > a, .social-link-container > a {
+  color: #c5a0df;
+}
+
+.hero-container .social-link-container > a:nth-child(2) {
   color: #FF83B5;
 }
 
-.social-link-container > a:nth-child(4) {
+.hero-container .social-link-container > a:nth-child(4) {
   color: #38B9F0;
 }
 
-.social-link-container {
+.hero-container p > a:hover, .social-link-container > a:hover {
+  color: #E9C9FF;
+}
+
+.hero-container .social-link-container > a:hover:nth-child(2) {
+  color: #FFBAD6;
+}
+
+.hero-container .social-link-container > a:hover:nth-child(4) {
+  color: #8FDDFF;
+}
+
+.hero-container .social-link-container {
   margin-top: 5rem;
   width: 100%;
 }
@@ -338,12 +351,13 @@ p > a, p > a + span, .social-link-container > a {
 }
 
 button.control {
-  height: .7rem;
-  width: .7rem;
+  height: 1rem;
+  width: 1rem;
 }
 
 button.control > div {
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(25, 131, 181,1);
+  border: .13rem solid #fff;
   border-radius: 50%;
   height: .6rem;
   margin: 0 .2rem;
@@ -351,27 +365,31 @@ button.control > div {
 }
 
 .navigator button:first-child ~ button > * {
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(25, 131, 181,.2);
 }
-.sections_heading-main span {
+
+
+/*Style Noteworthy Section Heading*/
+.noteworthy:hover .sections_heading-main span {
 	animation-name: colorSlide;
 	animation-duration: 1s;
 	animation-timing-function: ease-in-out;
+  animation-iteration-count: 5;
 }
 
-.sections_heading-main span:nth-child(1) { 
+.noteworthy .sections_heading-main span:nth-child(1) { 
 	animation-delay: .3s;
 }
 
-.sections_heading-main span:nth-child(2) {
+.noteworthy .sections_heading-main span:nth-child(2) {
 	animation-delay: .36s;
 }
 
-.sections_heading-main span:nth-child(3) {
+.noteworthy .sections_heading-main span:nth-child(3) {
 	animation-delay: .42s;
 }
 
-.sections_heading-main span:nth-child(4) {
+.noteworthy .sections_heading-main span:nth-child(4) {
 	animation-delay: .48s;
 }
 
@@ -460,34 +478,35 @@ section.noteworthy {
 	width: 100%;
 }
 
-.social-link-container > a {
+.noteworthy .social-link-container > a {
 	color: #000;
 	font-size: .8rem;
 	padding-right: 1.5rem;
 	vertical-align: 20%;
 }
 
-.social-link-container a {
+/*Affects both hero and noteworthy sections*/
+.social-link-container a, .hero-container p > a {
 	transition: color .3s ease-in-out;
 }
 
-.social-link-container > a:nth-child(2) {
+.noteworthy .social-link-container > a:nth-child(2) {
 	color: #4A70EB;
 }
 
-.social-link-container > a:nth-child(4) {
+.noteworthy .social-link-container > a:nth-child(4) {
 	color: #38B9F0;
 }
 
-.social-link-container > a:nth-child(2):hover {
+.noteworthy .social-link-container > a:nth-child(2):hover {
 	color: #96ACF5;
 }
 
-.social-link-container > a:nth-child(4):hover {
+.noteworthy .social-link-container > a:nth-child(4):hover {
 	color: #98E0FF;
 }
 
-.social-link-container > a:nth-child(6):hover {
+.noteworthy .social-link-container > a:nth-child(6):hover {
 	color: #9C9A9A;
 }
 /*
