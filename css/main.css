@@ -1057,6 +1057,9 @@ section.noteworthy {
 .otherskills_chart {
   clear: both;
 }
+
+/*Position and style Twitter feed and comment section*/
+
 section.col-aggregator {
 	background-color: #fff;
 	color: #404040;
@@ -1070,6 +1073,7 @@ section.col-aggregator {
 	font-weight: 300;
 	font-size: .8rem;
 	height: 30rem;
+  margin: 2rem 0;
 	width: 26rem;
 	vertical-align: top;
 }
