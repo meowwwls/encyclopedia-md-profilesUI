@@ -235,6 +235,26 @@ h1,
 .site_search-btn:focus .site_search-icon {
   fill: #f5f5f5;
 }
+
+/*Position and style widget settings tab*/
+
+  .tab-widget {
+    background-color: #fff;
+    border: .1rem solid #C6C6C6;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 3.4rem;
+    width: 2rem;
+    z-index: 1;
+  }
+
+  .tab-widget ul {
+    color: #C6C6C6;
+    padding: .5rem 0;
+    text-align: center; 
+  }
+
 /* Position and style hero container */
 
 .hero-container {
@@ -283,7 +303,7 @@ h1,
 
 .pane1-content, h2 {
   color: #FAE9EF;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .pane1 > div h2 {
