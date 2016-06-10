@@ -238,8 +238,11 @@ h1,
 
 /*Position and style widget settings tab*/
 
-  .tab-widget {
+  .tab-widget, .settings-expand-tab {
     background-color: #fff;
+  }
+
+  .tab-widget {
     border: .1rem solid #C6C6C6;
     display: inline-block;
     position: absolute;
@@ -249,7 +252,7 @@ h1,
     z-index: 1;
   }
 
-  .tab-widget ul {
+  .tab-widget ul, .tab-widget a {
     color: #C6C6C6;
     padding: .5rem 0;
     text-align: center; 
