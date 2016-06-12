@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-	min-height: 100%;
+  min-height: 100%;
   background: #F5F5F5;
   font-family: 'Roboto', sans-serif;
 }
@@ -92,7 +92,7 @@ h1,
 }
 
 .large_container {
-  max-width: 86.23rem;
+  max-width: 79.75rem;
   margin: auto;
 }
 
