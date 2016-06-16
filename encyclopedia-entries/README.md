@@ -15,9 +15,9 @@ Literate-Thrasher: Research and Write Interactive Encyclopedia Entries
 
 #### Meowwwls' Entries
 
-* &lt;frameset>  
+* [&lt;frameset>](frameset-entry.md)
 * :nth-last-child(n)  
-* Array.prototype.unshift()
+* [Array.prototype.unshift()](array-unshift-entry.md)
 
 ## Interactive Project Description
 
