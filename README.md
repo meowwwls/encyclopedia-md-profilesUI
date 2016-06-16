@@ -1,17 +1,23 @@
-# encyclopedia_md-people
+# Encyclopedia.Modern Developer: Profiles
+## Team Literate-Thrasher
+([Meowwwls](http://github.com/meowwwwls) and [Azureowl](http://github.com/azureowl))
 
-Modern Developer project by Meowwls and Azureowl
+### UI Development 
 
-Workflow  
+####Workflow  
 
-Meowwwls managed the following sections:
+We communicated via e-mail, Google Hangouts, and HipChat to decide how to tackle the project. We each decided which parts of the UI we would like to work on, and split the sections evenly at 4 per person. A Trello board was used to break down tasks into easily manageable lists so we could keep track of our progress.
+
+Each section was created and edited on its own branch. When it came time to merge branches, we merged one section at a time from the top down in order to catch any potential issues early, so we could locate the problem immediately. This proved beneficial, as when something went wrong and a component or the layout "broke", we were able to quickly isolate the problem and implement a fix.
+
+##### Meowwwls managed the following sections:
 
 * Header logo with search field
-* Altruism
+* Appreciation
 * Biography/Trivia/Work History
 * Skills
 
-Azureowl managed the following sections:
+##### Azureowl managed the following sections:
 
 * Hero
 * Noteworthy Contributions
@@ -19,6 +25,6 @@ Azureowl managed the following sections:
 * Setting Tab right of Hero
 
 
-[Encyclopedia Entries](encyclopedia-entries)
+###[Encyclopedia Entries](encyclopedia-entries)
 
-[Encyclopedia Interactive Projects](encyclopedia-entries-interactive)
+###[Encyclopedia Interactive Projects](encyclopedia-entries-interactive)
