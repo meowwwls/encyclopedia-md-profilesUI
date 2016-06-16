@@ -1,6 +1,6 @@
 # Encyclopedia.Modern Developer: Profiles
 ## Team Literate-Thrasher
-([Meowwwls](http://github.com/meowwwwls) and [Azureowl](http://github.com/azureowl))
+([Meowwwls](http://github.com/meowwwls) and [Azureowl](http://github.com/azureowl))
 
 ### UI Development 
 
