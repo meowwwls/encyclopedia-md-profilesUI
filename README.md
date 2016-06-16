@@ -25,6 +25,5 @@ Each section was created and edited on its own branch. When it came time to merg
 * Setting Tab right of Hero
 
 
-###[Encyclopedia Entries](encyclopedia-entries)
+###[Encyclopedia Entries & Interactive Examples](encyclopedia-entries)
 
-###[Encyclopedia Interactive Projects](encyclopedia-entries-interactive)
