@@ -1,0 +1,117 @@
+html {
+	background-color: #1d1d1d;
+}
+
+body {
+	font-family: 'Caesar Dressing', cursive;
+	font-size: 62.5%;
+}
+
+.container {
+	margin: 0 auto;
+	width: 40em;
+}
+
+h1 {
+	font-size: 4em;
+	margin: 0 auto;
+	padding-top: .5em;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+#menu, #order {
+	display: inline-block;
+}
+
+#menu {
+	/*margin: 0 auto;*/
+	width: 30em;
+}
+
+#order {
+	margin-top: 12em;
+	vertical-align: top;
+	width: 5em;
+}
+
+h1, #menu-item {
+	color: #248bb3;
+}
+
+ul#menu-item {
+	font-size: 3.5em;
+	line-height: 1.2em;
+	margin: 0;
+	padding: 1rem 0 0 0;
+	text-align: center;
+}
+
+ul.items {
+	color: #cacaca;
+	font-size: .64em;
+	padding: 0;
+}
+ 
+ul.items, h1, p, .change button {
+	font-family: 'Neucha', cursive;
+}
+
+#order ul {
+	padding: 0;
+}
+
+#order li {
+	margin-top: 2em;
+}
+
+#order #order-kala, #order #order-oliv, #order #order-gyro, #order #order-ouzo {
+	margin-top: 2.7em;
+}
+
+#order #order-dolm, #order #order-sala, #order #order-past, #order #order-bak, #order #order-wine  {
+	margin-top: 6.9em;
+}
+
+del {
+	color: #ff5d38;
+}
+
+.change {
+	margin: 3em auto 12em auto;
+	position: relative;
+	width: 40em;
+}
+
+.change button {
+	background-color: #248bb3; 
+	color: #cacaca;
+	border: none;
+	padding-top: .6em;
+	position: absolute;
+	right: 7.5em;
+	transition: background-color .5s, color .4s;
+	width: 12em;
+}
+
+.change .update {
+	left: 2.5em;
+}
+
+.change button:hover {
+	background-color: #54b6dc; 
+	color: #1d1d1d;
+}
+
+.message-system {
+	top: 2em;
+	position: absolute;
+}
+
+p {
+	color: #fff;
+	font-size: 1.7em;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+
+ <title> Encyclopedia-Entries </title>
+ <link href='https://fonts.googleapis.com/css?family=Caesar+Dressing|Neucha' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+ <link rel='stylesheet' type='text/css' href='css/del-style.css'>
+ 
+ 
+
+</head>
+
+<body>
+<div class="message-system">
+	<del><p>Manager's Message 1/12/15: 86'd - Remove octopus stifado and olive pita</p>
+	<p>Manager's Message 1/15/15: 86'd - Remove Armida Blend Red 2012</p>
+	<p>Manager's Message 1/18/15: 86'd - Roast lamb chops and fakes soupa</p></del>
+	<p>Manager's Message 1/20/15: 86'd - Remove kalamari, pastitsio, and ouzo.</p>
+</div>
+
+
+<div class="container">
+	<div id="menu">
+	<h1>Menu System</h1>
+		<ul id="menu-item">
+			<li>Appetizer
+				<ul class="items">
+					<li id="taram" class="btn-tara">Taramasalata with Pita</li>
+					<li id="kala" class="btn-kala">Fried Kalamari</li>
+				</ul>	
+			</li>
+			<li>Side
+				<ul class="items">
+					<li id="dolma">Dolmas</li>
+					<li>Olives with Feta</li>
+				</ul>
+			</li>
+			<li>Salad
+				<ul class="items">
+					<li>Ikaria Salad</li>
+				</ul>
+			</li>
+			<li>Main
+				<ul class="items">
+					<li id="pasta">Pastitsio</li>
+					<li id="gyro">Gyros</li>
+				</ul>
+			</li>
+			<li>Dessert
+				<ul class="items">
+					<li id="bak">Baklava</li>
+				</ul>
+			</li>
+			<li>Special Drinks
+				<ul class="items">
+					<li>House Wine</li>
+					<li id="ouzo">Ouzo</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div id="order">
+		<ul id="order-item">
+			<li id="order-tara"><button type="button" class="btn-tara"></button></li>
+			<li id="order-kala"><button type="button" class="btn-kala"></button></li>
+			<li id="order-dolm"><button type="button" class="btn-dolm"></button></li>
+			<li id="order-oliv"><button type="button" class="btn-oliv"></button></li>
+			<li id="order-sala"><button type="button" class="btn-sala"></button></li>
+			<li id="order-past"><button type="button" class="btn-past"></button></li>
+			<li id="order-gyro"><button type="button" class="btn-gyro"></button></li>
+			<li id="order-bak"> <button type="button" class="btn-bak"></button></li>
+			<li id="order-wine"><button type="button" class="btn-wine"></button></li>
+			<li id="order-ouzo"><button type="button" class="btn-ouzo"></button></li>
+		</ul>
+	</div>
+
+	<div class="change"><button class="update">Update</button><button class="reset">Reset</button></div>
+</div> <!-- End of container -->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	
+$(document).ready(function () {
+	$("#order-kala").click(function() {
+		$("#kala").wrapInner("<del></del>");
+	});
+	$("#order-past").click(function() {
+		$("#pasta").wrapInner("<del></del>");
+	});
+	$("#order-ouzo").click(function() {
+		$("#ouzo").wrapInner("<del></del>");
+	});
+	$(".reset").click(function() {
+		$("li").find("del").contents().unwrap();
+	});
+});
+</script>
+
+
+
+</body>
+
+</html>
