@@ -1,12 +1,10 @@
 # Array.prototype.unshift()
 
-*The `unshift()`* *method allows you to add one or more items to the* ***beginning*** *of an array or array-like object.*
-
-The `unshift` method can be used to add items to the beginning of any array. Using `call` or `apply` along with `unshift`, it can be used to add items to an array-like object. 
+*The `unshift()`* *method allows you to add one or more items to the* ***beginning*** *of an array. Using `call` or `apply` along with `unshift`, items can be added to array-like objects.*
 
 *Any* value can be added to an array using `unshift`. You can add literals (*number literals such as 5, string literals such as "Hello, world"*), other arrays, objects, variable references to objects and arrays, booleans, strings, or numbers.
 
-If more than one argument is passed to `unshift` (*more than one item added to the array*), each argument **must be separated by a comma (<kbd>,</kbd>)**. If more than one item is added to the beginning of the array, the items will be in the order in which they are passed in the list of arguments.
+If more than one argument is passed to `unshift` (*more than one item added to the array*), each argument **must be separated by a comma (<kbd>,</kbd>)**. If more than one item is added to the beginning of the array, the items will be in the order in which they appear in the list of arguments.
 
 **For example:**
 
