@@ -13,7 +13,7 @@ Each section was created and edited on its own branch. When it came time to merg
 ##### Meowwwls managed the following sections:
 
 * Header logo with search field
-* Appreciation
+* Appreciation (star GitHub repos, tip, Tweet/email)
 * Biography/Trivia/Work History
 * Skills
 
