@@ -2,29 +2,27 @@
 
 *The `unshift()`* *method allows you to add one or more items to the* ***beginning*** *of an array or array-like object.*
 
+The `unshift` method can be used to add items to the beginning of any array. Using `call` or `apply` along with `unshift`, it can be used to add items to an array-like object. 
+
+*Any* value can be added to an array using `unshift`. You can add literals (*number literals such as 5, string literals such as "Hello, world"*), other arrays, objects, variable references to objects and arrays, booleans, strings, or numbers.
+
+If more than one argument is passed to `unshift` (*more than one item added to the array*), each argument **must be separated by a comma (<kbd>,</kbd>)**. If more than one item is added to the beginning of the array, the items will be in the order in which they are passed in the list of arguments.
+
+**For example:**
+
+If you're adding three items to an array (`array.unshift(item1, item2, item3)`), first `item3` will be added to the front of the array, then `item2` will be added to the front (placed before `item3`, and finally `item1` will be added to the front, which means `item1` will be the new first item in the array.
+
+```javascript
+var nums = [10, 15, 16, 20];
+nums.unshift(3, 7, 9);
+nums // [3, 7, 9, 10, 15, 16, 20]
+```
+
 ## Syntax 
 
 `array.unshift(item1[, itemN...])`
 
 `itemN` represents an optional additional item or items to be added.
-
-## Description
-
-The `unshift` method can be used to add items to the beginning of any array. Using `call` or `apply` along with `unshift`, it can be used to add items to an array-like object. 
-
-*Any* value can be added to an array using `unshift`. You can add literals (*number literals such as 5, string literals such as "Hello, world"*), other arrays, objects, variable references to objects and arrays, booleans, strings, or numbers.
-
-If more than one item is added to the beginning of the array, each item **must be separated by a comma (<kbd>,</kbd>)**. If more than one item is added to the beginning of the array, the items will be in the order in which they appear as arguments being passed to the `unshift` method.
-
-**For example:**
-
-If you're adding three items to an array (`array.unshift(el1, el2, el3)`), first `el3` will be added to the front of the array, then `el2` will be added to the front (placed before `el3`, and finally `el1` will be added to the front, which means `el1` will be the new first item in the array.
-
-```javascript
-var nums = [10, 15, 16, 20];
-nums.unshift(3, 7, 9);
-nums // [3, 7, 9, 10, 15, 16, 20];
-```
 
 ## Return Value
 
