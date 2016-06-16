@@ -21,6 +21,4 @@ Azureowl managed the following sections:
 
 [Encyclopedia Entries](encyclopedia-entries)
 
-* [Encyclopedia Entries README](encyclopedia-entries/README.MD)
-
 [Encyclopedia Interactive Projects](encyclopedia-entries-interactive)
