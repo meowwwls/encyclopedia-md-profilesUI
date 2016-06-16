@@ -1,22 +1,8 @@
 # &lt;frameset&gt;
 
-*The `<frameset>` element is used to contain a collection of `<frame>`s to be displayed together.*
+*A `<frameset>` element serves as a container for `<frame>`s. Each `frameset` groups a collection of `frame`s together.*
 
-**IMPORTANT:** The `<frameset>` and `<frame>` elements are obsolete. They are deprecated elements and it is no longer advisable to use them in new web pages, or to continue to use them in existing projects. While most browsers will still display `<frameset>` and `<frame>`s when using the proper `DOCTYPE`, current browsers are in the process of dropping support, so web pages using these elements may stop working at any time.
-
-## Syntax 
-
-```html
-<frameset rows[or cols]="val1, val2">
-  <frame src="source1.html">
-  <frame src="source2.html">
-  ...
-</frameset>
-```
-
-## Description
-
-A `<frameset>` element serves as a container for `<frame>`s. Each `frameset` groups a collection of `frame`s together. The `frameset`s can display/stack enclosed `frame` elements vertically as rows, or horizontally as columns. A `frameset` can contain not only `frame`s, but other `frameset`s, allowing for more complex layouts of `frame` elements.
+A`frameset`s can display/stack enclosed `frame` elements vertically as rows, or horizontally as columns. A `frameset` can contain not only `frame`s, but other `frameset`s, allowing for more complex layouts of `frame` elements.
 
 It is important to note that a `frameset` takes the place of `body` content in an HTML document. Whereas normally you would have something like this:
 
@@ -41,7 +27,17 @@ when using `frameset`, your page would instead look like this:
 
 The source of a `frame` inside of a `frameset` can be another HTML document, or even another website altogether. When layouts were harder to create with CSS, using `frameset`s and `frame`s was a popular way of laying out web pages.
 
-By default, links clicked inside of a `frame` within a `frameset` will load inside of the frame in which it was clicked. To override that behavior, you can use the `target` attribute on anchor tags. 
+By default, links clicked inside of a `frame` within a `frameset` will load inside of the frame in which it was clicked. To override that behavior, you can use the `target` attribute on anchor tags.
+
+## Syntax 
+
+```html
+<frameset rows[or cols]="val1, val2">
+  <frame src="source1.html">
+  <frame src="source2.html">
+  ...
+</frameset>
+```
 
 ## Attributes
 
@@ -127,6 +123,10 @@ The first row will be comprised of another `frameset`. That frameset will have t
 </frameset>
 ```
 
+## Special Notes
+
+The `<frameset>` and `<frame>` elements are obsolete. They are deprecated elements and it is no longer advisable to use them in new web pages, or to continue to use them in existing projects. While most browsers will still display `<frameset>` and `<frame>`s when using the proper `DOCTYPE`, current browsers are in the process of dropping support, so web pages using these elements may stop working at any time.
+
 ## Browser Support
 
-Currently, most major browsers still support `<frameset>` with the proper `DOCTYPE` declaration, but browsers are in the process of dropping support. Instead of using `<frameset>` and `<frame>`s, you should use `<iframe>`s.
+Currently, most major browsers still support `<frameset>` with the proper `DOCTYPE` declaration.
