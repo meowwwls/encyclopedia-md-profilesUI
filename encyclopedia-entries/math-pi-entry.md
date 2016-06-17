@@ -23,23 +23,27 @@ Math.PI
 
 **To find the value of Math.PI, π:**
 
+```javascript
 	Math.PI // 3.141592653589793
+```
 
 **To find the circumference of a circle with a diameter of d:**
 
+```javascript
 	function findCircumference (d) {
 	  return diameter * Math.PI;
 	} 
-	
 	findCircumference(7) // 21.991148575128552
+```
 
 **To find the circumference of a circle with a radius of r:**
 
+```javascript
 	function findCircumference (r) {
 	  return radius * 2 * Math.PI;
-	} 
-	
+	} 	
 	findCircumference(5) // 31.41592653589793
+```
 
 ## Browser Support
 

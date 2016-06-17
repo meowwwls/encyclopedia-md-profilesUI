@@ -14,24 +14,30 @@ When used, the element is rendered with strike-through text, but the text-decora
 
 Inline `del` element  
 
+```html
 	<p>
 	  <del>Home, home</del> on the range.
 	</p>
+```
 
 Block-level `del` element  
 
+```html
 	<del>
 	  <p>Where the deer and the antelope play.</p>
 	  <p>Did you enjoy this song? Tell us!</p>
 	  <p>Thanks for listening!</p>
 	</del>
+```
 
 `del` element attributes: `cite` and `datetime` 
 
+```html
 	<p>
 	  <del cite="http://www.example.com" datetime="2016-06-11T12:01:05+02:09">Home, home div</del> 
 	  on the range.
 	</p>
+```
 
 ## Attributes
 
@@ -47,6 +53,7 @@ This attribute contains the time and date of the change. To be an associated tim
 
 * Avoid using a `del` element that crosses implied paragraph boundaries, even though `del` elements can span both explicitly wrapped `p` elements and implied ones. Paragraphs are implied when text is not wrapped inside a `p` tag. 
 
+```html
 		 <del>
 		  <p>
 		   Delete the first sentence in this paragraph.
@@ -54,9 +61,11 @@ This attribute contains the time and date of the change. To be an associated tim
 		   This isn't wrapped in a `p` tag, but it will still be deleted.
 		 </del>
 		   This paragraph will not be deleted because it is not inside the del element.
+```
 
 * It is not possible to use the `del` element to span two separate paragraph elements.
 
+```html
 		<p>
 		   Home, home on the range. <del>Delete only this part of the song.
 		 </p>
@@ -64,6 +73,7 @@ This attribute contains the time and date of the change. To be an associated tim
 		  Where the deer and the antelope play will not be deleted.</del> 
 		  This will not work. Do not do this.
 		 </p>
+```
 
 Both examples are bad practice and may cause confusion. Follow the recommended standard of marking up all paragraphs with the `p` element.
 

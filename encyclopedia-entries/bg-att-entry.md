@@ -25,32 +25,38 @@ The value of `inherit` for the background-attachment property takes on the same 
 ### Background with `scroll` value. 
 `scroll` is the default value and specifying it is optional. The background will not move and it is fixed to the element, even if the element has a scrolling mechanism. Once the document itself moves, the background inside the containing element will move along with it.
 
+```css
 	div {
 	  background: url(“images/stars.jpg”);
 	  background-attachment: scroll;
 	  color: #000;
 	  padding: 1em;
 	}
+```
 
 ### Background with `fixed` value. 
 The background is fixed to the viewport and will not move along with content.
 
+```css
 	div {
 	  background: url(“images/stars.jpg”);
 	  background-attachment: fixed;
 	  color: #000;
 	  padding: 1em;
 	}
+```
 
 ### Background with `local` value. 
 The background is fixed to the element’s content. It will move along with the content and the document.
 
+```css
 	div {
 	  background: url(“images/stars.jpg”);
 	  background-attachment: local;
 	  color: #000;
 	  padding: 1em;
 	}
+```
 
 ## Browser Support
 
