@@ -16,7 +16,7 @@
 ### Meowwwls' Entries
 
 * [&lt;frameset>](frameset-entry.md)
-* :nth-last-child(n)  
+* [:nth-last-child()](nthlastchild-entry.md)  
 * [Array.prototype.unshift()](array-unshift-entry.md)
 
 ## Interactive Project Descriptions/Demos/Previews
