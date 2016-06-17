@@ -3,6 +3,7 @@
 ([Meowwwls](http://github.com/meowwwls) and [Azureowl](http://github.com/azureowl))
 
 ### UI Development 
+**[Live Demo](http://meowwwls.github.io/encyclopedia-md-profilesUI/)**
 
 ####Workflow  
 
