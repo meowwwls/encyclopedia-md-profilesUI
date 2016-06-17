@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* removes padding and border adding by Firefox  */
+
+button::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner {
+  padding: 0 !important;
+  border: 0 none !important;
+}
+
+
+/* resets initial styles so all .button elements start with the same look and can be built upon */
+
+.button {
+  padding: 0;
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: sans-serif;
+  background-color: transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
+/* styling the buttons */
+
+
+/* default size will be medium */
+
+.button {
+  vertical-align: bottom;
+  font-size: 1rem;
+  padding: 0.5em .75em;
+  color: #f5f5f5;
+  background: #ff66d8;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0.1875em;
+}
+
+.button:hover,
+.button:focus {
+  color: #f5f5f5;
+  background: #fe5f35;
+  outline: 0;
+}
+
+.button:active {
+  color: #fe5f35;
+  background: transparent;
+  box-shadow: inset 0 0 0 0.2em #fe5f35;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+
+.reset {
+  background: #fe5f35;
+}
+
+.reset:hover,
+.reset:focus {
+  background: #828282;
+}
+
+.reset:active {
+  background: transparent;
+}
+
+
+/* page styles */
+
+body {
+  padding: 1rem;
+  background: #f6f6f6;
+  color: #44433f;
+  text-align: center;
+  font-family: 'Anonymous Pro', 'Courier New', 'Courier', monospace;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.gatos-intro {
+  max-width: 50rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+h1,
+h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1 {
+  margin-bottom: 0.25em;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #ff66d8;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.gatos-intro h2 + p {
+  text-align: left;
+}
+
+.input-wrap {
+  max-width: 33rem;
+  margin: 3rem auto;
+}
+
+label {
+  margin-right: 0.5rem;
+  color: #fe5f35;
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+input {
+  display: inline-block;
+  vertical-align: bottom;
+  padding: 0.5rem 0.5rem 0.15rem;
+  border: 0;
+  border-bottom: 2px solid #ff66d8;
+  background: transparent;
+  font-family: 'Anonymous Pro', 'Courier New', 'Courier', monospace;
+  -webkit-transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+input:focus {
+  outline: 0;
+  box-shadow: 0 3px 0 #fe5f35;
+}
+
+.separate {
+  width: 70%;
+  margin: 3rem auto;
+  height: 1px;
+  background: -webkit-linear-gradient(left, #ff66d8, #fe5f35);
+  background: linear-gradient(to right, #ff66d8, #fe5f35);
+  position: relative;
+}
+
+.separate::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  border-style: solid;
+  border-color: #fe5f35 transparent transparent;
+  border-width: 1.5rem 1rem 0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.volunteer-container {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  max-width: 30rem;
+  padding: 2rem;
+  margin: 1rem auto 2rem;
+  line-height: 2rem;
+  background: #EAEAEA;
+}
+
+ul p {
+  font-style: italic;
+}
+
+.sad-cat::after,
+li::before {
+  font-size: 2rem;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: .5rem;
+  font-style: normal;
+}
+
+.sad-cat::after {
+  content: '\01F63F';
+}
+
+li::before {
+  content: '\01F63B';
+  margin-right: 0.25em;
+}
+
+
+@media screen and (max-width: 500px) {
+  .button {
+    margin: 1rem 0;
+  }
+  .gatos-intro {
+    padding-bottom: 0;
+  }
+}
