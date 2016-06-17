@@ -48,5 +48,6 @@ This will be a demonstration featuring several elements in one container. Each e
 I have created a page for a fictional animal shelter requesting volunteers. Users can add their name to a list of volunteers. The list appears on the page and as each name is added, the last name to be added appears at the top of the list. Multiple names can be added at once as long as they are separated by a comma (<kbd>,</kbd>). The users can see in real-time that no matter how many names are added, the newest names are always at the top / front of the list. There is also a button to reset the list to the initial value, which is empty.
 
 #####[DEMO](http://meowwwls.github.io/encyclopedia-md-profilesUI/encyclopedia-entries-interactive/unshift.html)
+
 ##### PREVIEW
 ![demonstration of names being added to the list](https://github.com/meowwwls/encyclopedia-md-profilesUI/blob/master/encyclopedia-entries/img/unshift-prev.gif?raw=true)

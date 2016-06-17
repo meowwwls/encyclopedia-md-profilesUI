@@ -5,6 +5,7 @@
 ### UI Development 
 **[Live Demo](http://meowwwls.github.io/encyclopedia-md-profilesUI/)**
 
+
 ####Workflow  
 
 We communicated via e-mail, Google Hangouts, and HipChat to decide how to tackle the project. We each decided which parts of the UI we would like to work on, and split the sections evenly at 4 per person. A Trello board was used to break down tasks into easily manageable lists so we could keep track of our progress.
